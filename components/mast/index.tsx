@@ -35,7 +35,7 @@ const Mast: React.FC = ({ children }) => {
   return (
     <MastStyle>
       <div className="branding-area">
-        <img src="/images/watermark.png" width="140px" />
+        <img src="/images/watermark.png" width="120px" />
       </div>
       <PrimaryNavigation items={items} className="navigation" />
     </MastStyle>

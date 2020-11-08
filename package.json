@@ -14,8 +14,10 @@
   "dependencies": {
     "@types/styled-components": "^5.1.4",
     "next": "^10.0.1",
+    "nodemailer": "^6.4.15",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "sendmail": "^1.6.1",
     "styled-components": "^5.2.1"
   },
   "devDependencies": {

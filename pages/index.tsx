@@ -201,7 +201,7 @@ const Index: React.FC = () => {
       </HeroSection>
       <WorkSection>
         <header>
-          <h2>Selecton of my work</h2>
+          <h2>Selection of my work</h2>
           <i className="fa fa-long-arrow-down" aria-hidden="true"></i>
         </header>
         <ul>
