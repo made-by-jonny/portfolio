@@ -38,6 +38,18 @@ const HeroSection: React.FC = styled.div`
       font-size: 3rem;
     }
   }
+
+  @media (max-width: 446px) {
+    article {
+      width: 100%;
+    }
+    h1 {
+      font-size: 2.5rem;
+    }
+    p {
+      font-size: 1.3rem;
+    }
+  }
 `;
 
 const WorkSection: React.FC = styled.article`
