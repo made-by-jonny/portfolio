@@ -31,6 +31,9 @@ const HeroSection: React.FC = styled.div`
     }
   }
   @media (max-width: 520px) {
+    article {
+      width: 100%;
+    }
     h1 {
       font-size: 3rem;
     }

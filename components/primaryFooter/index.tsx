@@ -33,6 +33,15 @@ const PrimaryFooterStyle: React.FC<{
     text-decoration: none;
     color: ${({ theme }) => theme.colors.light};
   }
+
+  @media (max-width: 520px) {
+    flex-direction: column;
+    align-items: center;
+    > article {
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+  }
 `;
 
 const PrimaryFooter: React.FC<Footer> = (props) => {
