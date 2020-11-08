@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const MastStyle: React.FC = styled.header`
   position: absolute;
-  padding: 2rem 10%;
+  padding: 2rem 14.7%;
   width: 100%;
   top: 0;
   left: 0;
@@ -13,6 +13,14 @@ const MastStyle: React.FC = styled.header`
   .branding-area,
   .navigation {
     flex: 1;
+  }
+
+  @media (max-width: 946px) {
+    padding: 2rem 9.7%;
+  }
+
+  @media (max-width: 666px) {
+    padding: 2rem 5%;
   }
 `;
 
@@ -27,7 +35,7 @@ const Mast: React.FC = ({ children }) => {
   return (
     <MastStyle>
       <div className="branding-area">
-        <Image src="/images/watermark.png" width={120} height={47} />
+        <img src="/images/watermark.png" width="140px" />
       </div>
       <PrimaryNavigation items={items} className="navigation" />
     </MastStyle>

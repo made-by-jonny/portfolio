@@ -20,7 +20,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    padding: 0 9.5%;
+    padding: 0 14.5%;
   }
 
   * {
@@ -67,6 +67,18 @@ const GlobalStyle = createGlobalStyle`
   input, button {
     all: unset;
     padding: ${({ theme }) => theme.components.padding};
+  }
+
+  @media (max-width: 946px) {
+    body {
+      padding: 0 9.7%;
+    }
+  }
+
+  @media (max-width: 666px) {
+    body {
+      padding: 0 5%;
+    }
   }
 `;
 
