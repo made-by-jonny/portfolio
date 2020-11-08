@@ -30,13 +30,13 @@ const HeroSection: React.FC = styled.div`
     margin-bottom: 5rem;
   }
 
-  @media (max-width: 946px) {
+  @media (max-width: 1018px) {
+    height: 70vh;
     h1 {
-      font-size: 4rem;
+      font-size: 3.5rem;
     }
   }
   @media (max-width: 520px) {
-    height: 70vh;
     article {
       width: 100%;
     }
