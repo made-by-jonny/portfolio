@@ -25,12 +25,18 @@ const HeroSection: React.FC = styled.div`
     width: 80%;
   }
 
+  @media (max-width: 1024px) and (max-height: 1366px) {
+    height: 60vh;
+    margin-bottom: 5rem;
+  }
+
   @media (max-width: 946px) {
     h1 {
       font-size: 4rem;
     }
   }
   @media (max-width: 520px) {
+    height: 70vh;
     article {
       width: 100%;
     }
@@ -49,6 +55,11 @@ const HeroSection: React.FC = styled.div`
     p {
       font-size: 1.3rem;
     }
+  }
+
+  @media (max-width: 320px) {
+    height: 80vh;
+    margin-bottom: 1rem;
   }
 `;
 
@@ -109,6 +120,11 @@ const WorkSection: React.FC = styled.article`
         transform: scale(1.03, 1.03);
         opacity: 1;
       }
+    }
+  }
+  @media (max-width: 375px) {
+    h2 {
+      font-size: 1.2rem;
     }
   }
 
@@ -175,6 +191,12 @@ const BlogSection: React.FC = styled.article`
         transform: scale(1.03, 1.03);
         opacity: 1;
       }
+    }
+  }
+
+  @media (max-width: 375px) {
+    h2 {
+      font-size: 1.2rem;
     }
   }
 
