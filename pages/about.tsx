@@ -153,33 +153,36 @@ const Index: React.FC = () => {
           <li>
             <h3>Development</h3>
             <ul>
-              <li>Websites</li>
-              <li>Native Apps</li>
-              <li>Progressive Web Apps</li>
+              <li>HTML/CSS/JS</li>
+              <li>React &amp; React Native</li>
+              <li>Backend &amp; API</li>
             </ul>
           </li>
           <li>
             <h3>Design</h3>
             <ul>
-              <li>Visual Design</li>
-              <li>UX Design</li>
-              <li>User Research &amp; Testing</li>
+              <li>UI/UX design</li>
+              <li>Brandings</li>
+              <li>Websites and native apps</li>
+              <li>Prototyping</li>
+              <li>User research</li>
+            </ul>
+          </li>
+          <li>
+            <h3>Strategy</h3>
+            <ul>
+              <li>User Research</li>
+              <li>UI/UX audit</li>
+              <li>Consultancy</li>
             </ul>
           </li>
           <li>
             <h3>Content</h3>
             <ul>
+              <li>Video </li>
               <li>Photography</li>
-              <li>Videography</li>
-              <li>Video editing</li>
+              <li>2D/3D graphics</li>
             </ul>
-          </li>
-          <li>
-            <h3>Consultancy</h3>
-            <p>
-              I will avalible to chat about these topics and how they effect our
-              company
-            </p>
           </li>
         </ul>
       </AboutContainer>

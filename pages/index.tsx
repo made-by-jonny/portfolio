@@ -28,7 +28,6 @@ const HeroSection: React.FC = styled.div`
     line-height: 2.5rem;
     font-weight: 300;
     margin: 0 0 2rem 0;
-    width: 50%;
     color: ${({ theme }) => theme.colors.primaryBrand};
   }
 
