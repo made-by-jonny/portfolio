@@ -9,6 +9,7 @@ const PrimaryFooterStyle: React.FC<{
   className?: string | (() => string);
 }> = styled.footer`
   display: flex;
+  margin-top: 5rem;
   padding-bottom: 3rem;
   ul {
     all: unset;

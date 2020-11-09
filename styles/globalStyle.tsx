@@ -8,7 +8,6 @@ const GlobalStyle = createGlobalStyle`
     font-size: ${({ theme }) => theme.typography.body.size};
     font-family: ${({ theme }) => theme.typography.body.font};
     color: ${({ theme }) => theme.colors.text};
-    overflow-x: hidden;
     line-height: ${({ theme }) => theme.utility.lineHeight};
     letter-spacing: 0.01rem;
     -webkit-font-smoothing: antialiased;
