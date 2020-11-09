@@ -4,6 +4,25 @@ import styled from "styled-components";
 
 const Page: React.FC = styled.div`
   padding-top: 10rem;
+  h1 {
+    font-family: times;
+    margin: 0 0 8rem 0;
+    font-weight: 400;
+    line-height: 130%;
+    text-align: left;
+    text-align: center;
+    span {
+      display: block;
+      font-size: 2rem;
+    }
+  }
+  @media (max-width: 525px) {
+    h1 {
+      font-size: 3rem;
+      margin: 0 0 2rem 0;
+      text-align: left;
+    }
+  }
 `;
 
 const Intro: React.FC = styled.div`
@@ -93,6 +112,10 @@ const AboutContainer: React.FC = styled.article`
 const Index: React.FC = () => {
   return (
     <Page>
+      <h1>
+        My name is Jonathan Hamilton, a designer who can code
+        <span>(amongst other things)</span>
+      </h1>
       <AboutContainer>
         <header>
           <h2>A little about me</h2>
