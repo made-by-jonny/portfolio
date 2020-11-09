@@ -26,6 +26,10 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
 
+  p, li {
+    color: #AFAFB0;
+  }
+
   p,h4,h5,h6 {
     line-height:  ${({ theme }) => theme.leading()}px;
     margin-bottom:  ${({ theme }) => theme.leading()}px;

@@ -5,7 +5,8 @@ import styled from "styled-components";
 const Page: React.FC = styled.div`
   padding-top: 10rem;
   h1 {
-    font-family: times;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
     margin: 0 0 8rem 0;
     font-weight: 400;
     line-height: 130%;

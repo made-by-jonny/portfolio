@@ -19,6 +19,11 @@ export default class MyDocument extends Document {
           rel="stylesheet"
         ></link>
         <link
+          href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap"
+          rel="stylesheet"
+        ></link>
+        <link rel="stylesheet" href="https://use.typekit.net/wjh4vef.css" />
+        <link
           rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         />

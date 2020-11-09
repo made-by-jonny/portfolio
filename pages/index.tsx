@@ -3,16 +3,16 @@ import React from "react";
 import styled from "styled-components";
 
 const HeroSection: React.FC = styled.div`
-  height: 70vh;
+  height: 75vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   margin-bottom: 5rem;
   h1 {
-    font-family: times;
-    font-size: 5rem;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-size: 5.5rem;
     margin-top: 0;
-    font-weight: 400;
     line-height: 120%;
   }
   p {
@@ -20,9 +20,6 @@ const HeroSection: React.FC = styled.div`
     line-height: 2.5rem;
     font-weight: 300;
     margin: 0 0 2rem 0;
-  }
-  article {
-    width: 80%;
   }
 
   @media (max-width: 1024px) and (max-height: 1366px) {
