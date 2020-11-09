@@ -26,12 +26,13 @@ const PrimaryNavigationStyle: React.FC<{
   }
 
   li {
-    margin-right: ${({ theme }) => theme.components.spacing};
+    margin-right: 2rem;
   }
 
   a {
     text-decoration: none;
-    color: ${({ theme }) => theme.colors.light};
+    font-family: "Rubik", sans-serif;
+    color: ${({ theme }) => theme.colors.primaryBrand};
   }
 
   button {

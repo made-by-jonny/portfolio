@@ -8,7 +8,7 @@ const Page: React.FC = styled.div`
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
     margin: 0 0 8rem 0;
-    font-weight: 400;
+    font-weight: 900;
     line-height: 130%;
     text-align: left;
     text-align: center;

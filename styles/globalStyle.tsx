@@ -4,7 +4,7 @@ const GlobalStyle = createGlobalStyle`
   body, html {
     margin: 0;
     scroll-behavior: smooth;
-    background: ${({ theme }) => theme.colors.dark};
+    background: ${({ theme }) => theme.colors.secondaryBrand};
     font-size: ${({ theme }) => theme.typography.body.size};
     font-family: ${({ theme }) => theme.typography.body.font};
     color: ${({ theme }) => theme.colors.text};
@@ -26,8 +26,8 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
 
-  p, li {
-    color: #AFAFB0;
+  p, li, a {
+    color: ${({ theme }) => theme.colors.text};
   }
 
   p,h4,h5,h6 {
@@ -40,6 +40,7 @@ const GlobalStyle = createGlobalStyle`
     line-height:  ${({ theme }) => theme.typography.subHeading.lineHeight};
     margin-bottom:  ${({ theme }) => theme.typography.subHeading.marginBottom};
     margin-top:  ${({ theme }) => theme.typography.subHeading.marginTop};  
+    color: ${({ theme }) => theme.colors.primaryBrand};
   }
 
   h1 {
@@ -65,6 +66,7 @@ const GlobalStyle = createGlobalStyle`
     margin-bottom:  ${({ theme }) =>
       theme.typography.tertiaryTitle.marginBottom};
     margin-top:  ${({ theme }) => theme.typography.tertiaryTitle.marginTop};
+   
   }
 
   input, button {

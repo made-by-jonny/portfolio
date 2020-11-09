@@ -32,7 +32,7 @@ const PrimaryFooterStyle: React.FC<{
 
   a {
     text-decoration: none;
-    color: ${({ theme }) => theme.colors.light};
+    color: ${({ theme }) => theme.colors.text};
   }
 
   @media (max-width: 520px) {

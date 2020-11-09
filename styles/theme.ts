@@ -8,11 +8,11 @@ export const utility = {
 export const leading = (): number => utility.rootSize * utility.lineHeight;
 
 export const colors = {
-  primaryBrand: "#000",
-  secondaryBrand: "#000",
+  primaryBrand: "#E5C4B0",
+  secondaryBrand: "#1E4646",
   tertiaryBrand: "#000",
-  dark: "#0d0d0e",
-  text: "#fff",
+  dark: "#111",
+  text: "#E5C4B0",
   subtleText: "#ccc",
   light: "#fff",
 };

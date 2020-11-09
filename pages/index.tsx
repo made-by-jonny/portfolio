@@ -7,19 +7,29 @@ const HeroSection: React.FC = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  margin-bottom: 5rem;
+  margin-top: 5rem;
+  text-align: left;
+  span {
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-weight: 500;
+    color: ${({ theme }) => theme.colors.primaryBrand};
+  }
   h1 {
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
-    font-size: 5.5rem;
+    font-size: 6rem;
     margin-top: 0;
     line-height: 120%;
+    color: ${({ theme }) => theme.colors.primaryBrand};
   }
   p {
     font-size: 1.5rem;
     line-height: 2.5rem;
     font-weight: 300;
     margin: 0 0 2rem 0;
+    width: 50%;
+    color: ${({ theme }) => theme.colors.primaryBrand};
   }
 
   @media (max-width: 1024px) and (max-height: 1366px) {
@@ -68,7 +78,7 @@ const WorkSection: React.FC = styled.article`
   h3 {
     font-size: 2rem;
     margin: 0;
-    font-weight: 500;
+    font-weight: 300;
   }
   header {
     padding: 2rem 0;
@@ -83,14 +93,19 @@ const WorkSection: React.FC = styled.article`
     height: 40px;
     width: 40px;
     border-radius: 100px;
-    border: 1px solid #fff;
+    border: 1px solid #e5c4b0;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .details span {
-    color: #666;
-    font-size: 0.9rem;
+  .details {
+    width: 100%;
+    padding: 1rem;
+    span {
+      color: #e5c4b0;
+      font-weight: 300;
+      font-size: 0.9rem;
+    }
   }
   ul {
     all: unset;
@@ -107,16 +122,18 @@ const WorkSection: React.FC = styled.article`
     }
     img {
       all: unset;
-      transition: transform 0.5s;
       object-fit: cover;
       background: #1f1d20;
       width: 100%;
       height: 550px;
-      opacity: 0.6;
+      transition: transform 0.5s;
       &:hover {
         transform: scale(1.03, 1.03);
-        opacity: 1;
       }
+    }
+    li {
+      position: relative;
+      transition: transform 0.5s;
     }
   }
   @media (max-width: 375px) {
@@ -152,7 +169,7 @@ const BlogSection: React.FC = styled.article`
   h3 {
     font-size: 2rem;
     margin: 0;
-    font-weight: 500;
+    font-weight: 300;
   }
   a {
     text-align: right;
@@ -212,6 +229,7 @@ const Index: React.FC = () => {
     <>
       <HeroSection>
         <article>
+          <span>Portfolio of Jonathan Hamilon</span>
           <h1>Newcastle based multidisciplinary designer.</h1>
           <p>
             Specialising in small businesses and communicating their stories
